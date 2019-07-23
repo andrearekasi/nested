@@ -1,0 +1,340 @@
+
+@font-face {
+    font-family: 'Myriad';
+    src: url(/css/fonts/MYRIADPRO-REGULAR.OTF);
+}
+
+.navbar-nav>li {
+    font-size: 20px;
+    font-family: 'Myriad';
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.nav-item :hover {
+    background: linear-gradient(
+        rgba(255, 0, 0, 0.5),
+        rgb(255, 0, 0));
+    border-radius: 10px;
+    /*box-shadow: 0 5px 35px 0px rgba(0, 0, 0, .1);*/
+    color: #000;
+    
+}
+
+h1 {
+    font-family: 'Myriad';
+    font-size: 50px;
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    color: white
+}
+
+.parallax {
+    text-align: center;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+    url(/img/aerial-desk-device-1011329.jpg);
+    width: 100%;
+    height: 600px;
+    opacity: 0.9;
+    visibility: inherit;
+    z-index: 20;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.btn-xl {
+    font-family: 'Myriad';
+}
+
+.section {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 1%;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+
+#missionSection {
+    color: white;
+    background:
+     linear-gradient(
+         rgba(0, 0, 0, 0.5),
+         rgba(0, 0, 0, 0.5)),
+    url(/img/mission.jpg);
+    height: 450px;
+    width: 100%;
+     opacity: 0.9;
+    /* filter: brightness(50%);*/
+     visibility: inherit;
+     z-index: 20;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#trainingSection {
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+    url(/img/training.jpg);
+    height: 450px;
+    width: 100%;
+    opacity: 0.9;
+    text-align: center;
+    visibility: inherit;
+    z-index: 20;
+   background-attachment: fixed;
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+     
+}
+
+
+.themeTable {
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+
+.serviceTable {
+    text-align: center;
+     margin-left:auto;
+     margin-right:auto;
+    }
+
+.serviceTd {
+    text-align: center;
+    font-family: 'Myriad';
+    font-size: 20px;
+    height: 360px;
+    width: 450px;
+    margin: 10%;
+    padding: 4%;
+    
+}
+
+.trainingSectionTitle {
+    color: white;
+    font-family: 'Myriad';
+    font-size: 30px;
+    height: 20px;
+    width: 100px;
+    margin: 15px;
+}
+
+.trainingTd {
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 5%;
+    text-align: center;
+    font-family: 'Myriad';
+    font-size: 20px;
+    height: 360px;
+    width: 450px;
+    margin: 10%;
+    padding: 4%;
+}
+
+.trainingDiv {
+    float: left;
+    background-color: rgba(255, 255, 255, 0.6);
+    position: relative;
+    align-self: center;
+  border-radius: 8px;
+  text-align: center;
+  font-family: 'Myriad';
+  font-size: 20px;
+  height: 250px;
+  width: 450px;
+  margin: 25px;
+  padding: 1%;
+  
+}
+
+.missionTitle {
+    color: white;
+    font-family: 'Myriad';
+    font-size: 40px;
+    text-align: center;
+}
+
+.missionText {
+    color: white;
+    font-family: 'Myriad';
+    font-size: 30px;
+    text-align: center;
+    margin: 10%;
+}
+
+.serviceTitle {
+font-family: 'Myriad';
+font-size: 25px;  
+}
+
+.title {
+    text-align: center;
+    font-family: 'Myriad';
+    font-size: 30px;
+    height: 20px;
+    width: 400px;
+    margin: 10px;
+
+}
+
+.missionDiv {
+    background: rgba(200, 200, 200, 0.6);
+    text-align: center;
+    color: black;
+    height: 180px;
+    width: 200px;
+    font-family: 'Myriad';
+    font-size: 20px;
+    position: relative;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}
+
+.themeTd {
+    float: left;
+    display: block;
+    width: 600px;
+    height: 70px;
+    padding: 4%;
+    text-align: center;
+    font-family: 'Myriad';
+    font-size: 25px;
+}
+
+.themeDesc {
+    font-size: 12px;
+    text-align: right;
+}
+
+.iconDiv {
+    float: left;
+     width: 60px;
+     height: 60px;
+     background: red;
+     -moz-border-radius: 50px;
+     -webkit-border-radius: 50px;
+     border-radius: 50px;
+     margin-left: 120px; 
+
+}
+
+.icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    color: #000;
+}
+
+#itTutoringIcon {
+    background-image: url(/img/icons/026-server.png)no-repeat;
+}
+
+#contactSection {
+    height: 500px;
+}
+
+.formLabel {
+    display: inline;
+    left: 5%;
+}
+
+#comment {
+    width: 96%;
+}
+.contactInput {
+     font-size: 1em;
+     outline: none;
+     padding: 0.5em;
+     border-radius:6px;
+     display:block;
+     width: 280px;
+     position: relative;
+     margin:10px;
+}
+
+.contactTds{
+    margin-left: 10px;
+    font-family: 'Myriad'
+}
+
+.contactTable {
+    float: left;
+    margin-left: 50px;
+}
+
+.contactDiv {
+    float: right;
+    text-align: end; 
+    font-family: 'Myriad'
+}
+
+.companyInfos {
+    margin-top: 10px; 
+}
+
+#aboutUsSection {
+      background: linear-gradient(
+          rgba(0, 0, 0, 0.1),
+          rgba(0, 0, 0, 0.1)),
+      url(/img/aboutus2.jpg);
+      height: 450px;
+      width: 100%;
+      opacity: 0.9;
+      text-align: center;
+      visibility: inherit;
+      z-index: 20;
+      background-attachment: fixed;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+.pic {
+    width: 230px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    top: 0;
+    bottom: 0;
+    margin-top: 8%;
+    border-radius: 10px;
+}
+
+#vera {
+    float: left;
+}
+#gabi {
+    float: right;
+}
+
+.selfInfo {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 500px;
+    height: 370px;
+    float: right;
+    font-size: 15px;
+    margin: 8px;
+    padding: 10px;
+}
